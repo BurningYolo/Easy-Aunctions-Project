@@ -1,0 +1,214 @@
+
+.top-bar
+{
+    
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+}
+
+
+.top-bar #top_bar_logo_pic 
+{
+    height: 100px;
+    margin-left: 10px;
+    width: 6%;
+
+}
+.top-bar h2{
+    color: orange;
+    
+}
+.top-bar #top_bar_button_list
+{
+    margin-left: 100px;
+}
+.top-bar #top_bar_pages_button
+{
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: orange; 
+    margin-left: 20px;
+ 
+    
+}
+
+.top-bar #top_bar_pages_button:hover
+{
+    text-decoration: underline;
+}
+.top-bar #search_bar
+{
+    padding:14px; 
+    width: 500px;
+    border: solid 1px orange ;
+    margin-left: 200px;
+    background-color: rgb(238, 193, 110);
+    
+
+}
+#search_bar ::placeholder
+{
+    color: black;
+}
+.top-bar #search_bar_button
+{
+    
+border: 5px orange;
+color: orange;
+border: solid 0.6px orange ;
+background-color: black;
+
+height: 45px;
+cursor: pointer;
+    
+}
+
+.top-bar #search_bar_button:hover
+{
+    text-decoration: underline;
+}
+
+.user-profile-pic
+{
+    height: 80px;
+    width: 80px;
+    background-color: orange ;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 100px;
+
+}
+.user-profile-pic  :hover
+{
+  cursor: pointer;
+}
+.user-profile-pic #user_profile_pic_image
+{
+    display: block;
+    width: 100%;
+}
+
+.both-divs-pic-and-form
+{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  
+
+
+}
+.pic-left-side
+{
+    width:70%;
+    height: 1000px;
+    
+    background: transparent;
+}
+.pic-left-side :hover
+{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.pic-left-side #left_side_pic
+{
+    margin-top: 10px;
+    width: auto;
+    height: 700px;
+}
+.pic-left-side h2{
+    color: orange;
+    font-size: 100px;
+
+}
+.form-body
+{
+    width: 30%; 
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.329);
+    
+}
+.form-body #login_logo_pic
+{
+    width: 200px;
+    height: 200px;
+    
+
+}    
+.login-form #login_form_input
+{
+    border-top:outset   orange  6px ; 
+    background-color: rgb(238, 193, 110);
+    
+    margin-top: 50px; 
+    height: 40px;
+    width: 98%;
+
+}
+
+.login-form #login_form_submit
+{
+    border: solid  orange  2px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 40px;
+    background-color: black;
+}
+.login-form #login_form_submit:hover
+{
+    text-decoration: underline;
+}
+.form-body #login_heading{
+    font-size: 40px;
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.form-body #facebook 
+{
+    width: 100%;
+    font-size: 30px;
+    background-color: rgb(72, 72, 230);
+    color: white;
+}
+.form-body #google
+{
+    width: 100%;
+    font-size: 30px;
+    background-color: #b64545;
+  color: white;
+
+}
+.form-body #other_platform_heading
+{
+    font-size: 25px;
+    margin: 20px;
+    color: orange;
+    text-decoration: underline;
+}
+.form-body #forgot_password
+{
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.bottom-bar
+{
+    width: 100%;
+    height: 200px;
+    background: black;
+    padding: 0px;
+    margin: 0px;
+   
+}
