@@ -153,8 +153,7 @@ cursor: pointer;
 .login-form #login_form_submit
 {
     border: solid  orange  2px;
-    height: 60px;
-    border-radius: 20px;
+    height: 40px;
     font-size: 20px;
     cursor: pointer;
     width: 100px;
@@ -173,17 +172,15 @@ cursor: pointer;
 }
 .form-body #facebook 
 {
-    width: 100%;
-    font-size: 30px;
-    background-color: rgb(72, 72, 230);
-    color: white;
+    font-size: 20px;
+    background-color: orange;
+    color: black;
 }
 .form-body #google
 {
-    width: 100%;
-    font-size: 30px;
-    background-color: #b64545;
-  color: white;
+    font-size: 20px;
+    background-color: orange;
+  color: black;
 
 }
 .form-body #other_platform_heading
