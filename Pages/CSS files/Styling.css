@@ -1,4 +1,3 @@
-
 .top-bar
 {
     
@@ -8,7 +7,23 @@
     align-items: center;
     display: flex;
 }
+body{
+    background: linear-gradient(-45deg, #020000, #000000e5, #da560a, black);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 .top-bar #top_bar_logo_pic 
 {
@@ -173,14 +188,14 @@ cursor: pointer;
 .form-body #facebook 
 {
     font-size: 20px;
-    background-color: orange;
-    color: black;
+    background-color: black;
+    color: orange;
 }
 .form-body #google
 {
     font-size: 20px;
-    background-color: orange;
-  color: black;
+    background-color: black;
+  color: orange;
 
 }
 .form-body #other_platform_heading
@@ -196,6 +211,10 @@ cursor: pointer;
     text-decoration: underline;
     cursor: pointer;
     
+
+
+
+
 
 }
 .bottom-bar
