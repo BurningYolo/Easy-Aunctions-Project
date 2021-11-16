@@ -1,6 +1,5 @@
 .top-bar
 {
-    
     width: 100%;
     height: 100px;
     background-image: linear-gradient(to left, #160101, #000000e5);
@@ -48,8 +47,6 @@ body{
     cursor: pointer;
     color: white; 
     margin-left: 20px;
- 
-    
 }
 
 .top-bar #top_bar_pages_button:hover
