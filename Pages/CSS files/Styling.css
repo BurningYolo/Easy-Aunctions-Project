@@ -11,6 +11,7 @@ body{
     background: linear-gradient(-45deg, #020000, #000000e5, rgb(116, 57, 2), black );
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
+    margin: 0px ; padding:  0px ;
 }
 
 @keyframes gradient {
@@ -310,6 +311,14 @@ cursor: pointer;
 {
     background: #dd4b39;
   color: white;
+
+}
+.main-page-section
+{
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
 
 }
 

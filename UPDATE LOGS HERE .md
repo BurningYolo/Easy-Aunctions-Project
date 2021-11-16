@@ -23,6 +23,7 @@ Signup form done added labels as well might have slightly messed up the login pa
 
 Signup and Login both done , Images of the UI present in **Current_Design_Images** Folder , The id's and classes name have been changed as well 
 
+Added header and footer to mainpage . 
 
 
 
