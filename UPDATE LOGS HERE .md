@@ -32,6 +32,10 @@ Added header and footer to mainpage .
 Added a dropdown menu on topbar as hover affect on **Product**  ; is working but will probably need js to make it better (Applied this update on all the pages ) . 
 
 
+Added dropdown menu for user-image when not logged in display login/signup options on hover . 
+
+
+
 
 
 

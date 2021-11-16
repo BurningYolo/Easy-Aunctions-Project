@@ -84,6 +84,7 @@ body{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: center;
 }
 
 .top-bar-drop-down-content a:hover {
@@ -136,12 +137,10 @@ cursor: pointer;
 
 .user-profile-pic
 {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     background-color: orange ;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-left: 100px;
+    margin-left: 50px;
 
 }
 .user-profile-pic  :hover
@@ -150,8 +149,9 @@ cursor: pointer;
 }
 .user-profile-pic #user_profile_pic_image
 {
+    max-width: 100%;
+    max-height: 100%;
     display: block;
-    width: 100%;
 }
 
 .form-body
