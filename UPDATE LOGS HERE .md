@@ -18,6 +18,11 @@ Login done v4 is main branch .
 
 (Done before this Push forgot to write here . )Login page done (From this push onwards working on Sign-up then main page) . 
 
+Signup form done added labels as well might have slightly messed up the login page but working on it after this . 
+(Work to be done in next  push , Change classes and ids names , add labels and stuff to login form . Add both screen shots as well and remove ss login4 as labels are added thus dosen't match the current version .  )
+
+
+
 
 
 

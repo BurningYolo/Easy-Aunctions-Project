@@ -109,7 +109,7 @@ cursor: pointer;
 .form-body
 {
     width: 30%; 
-    height: 1000px;
+    height: auto;
     border: black 2px solid ;
     opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.151);
@@ -123,16 +123,48 @@ cursor: pointer;
     height: 200px;
     
 
-}    
+}  
+.login-form-label-and-input
+{
+ 
+    display: flex;
+  flex-flow: row wrap;
+  margin-top: 30px;
+
+}
+.login-form-label-and-input #login_form_label
+{
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+
+}
+
 .login-form #login_form_input
 {
     border-top:outset   orange  6px ; 
     background-color: rgb(238, 193, 110);
-    
-    margin-top: 50px; 
     height: 40px;
     width: 98%;
 
+}
+.login-form #login-form-input-country-list
+{
+    border-top:outset   orange  6px ; 
+    background-color: rgb(238, 193, 110);
+    
+    height: 40px;
+    width: 28%;
+
+}
+
+.login-form #login-form-input-country-heading
+{
+    color: white;
+    font-size: 20px;
+    
 }
 
 .login-form #login_form_submit
@@ -182,12 +214,6 @@ cursor: pointer;
     color: white;
     text-decoration: underline;
     cursor: pointer;
-    
-
-
-
-
-
 }
 .bottom-bar
 {
@@ -280,5 +306,6 @@ cursor: pointer;
   color: white;
 
 }
+
 
 
