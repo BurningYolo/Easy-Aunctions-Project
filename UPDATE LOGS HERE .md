@@ -26,7 +26,10 @@ Signup and Login both done , Images of the UI present in **Current_Design_Images
 Added header and footer to mainpage . 
 
 
-testing ... 
+*Tried replacing vscode ID with github for commits didn't work messed up whole settings never again .....* 
+
+
+Added a dropdown menu on topbar as hover affect on **Product**  ; is working but will probably need js to make it better (Applied this update on all the pages ) . 
 
 
 
