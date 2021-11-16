@@ -124,7 +124,7 @@ cursor: pointer;
     
 
 }  
-.login-form-label-and-input
+.login-signup-form-label-and-input
 {
  
     display: flex;
@@ -132,7 +132,7 @@ cursor: pointer;
   margin-top: 30px;
 
 }
-.login-form-label-and-input #login_form_label
+.login-signup-form-label-and-input #login_signup_form_label
 {
     color: white;
     font-size: 25px;
@@ -142,7 +142,7 @@ cursor: pointer;
 
 }
 
-.login-form #login_form_input
+.login-signup-form #login_signup_form_input
 {
     border-top:outset   orange  6px ; 
     background-color: rgb(238, 193, 110);
@@ -150,7 +150,7 @@ cursor: pointer;
     width: 98%;
 
 }
-.login-form #login-form-input-country-list
+.login-signup-form #login-signup-form-input-country-list
 {
     border-top:outset   orange  6px ; 
     background-color: rgb(238, 193, 110);
@@ -160,14 +160,14 @@ cursor: pointer;
 
 }
 
-.login-form #login-form-input-country-heading
+.login-signup-form #login-signup-form-input-country-heading
 {
     color: white;
     font-size: 20px;
     
 }
 
-.login-form #login_form_submit
+.login-signup-form #login_signup_form_submit
 {
     border: solid  orange  2px;
     height: 40px;
@@ -179,11 +179,11 @@ cursor: pointer;
     margin-top: 40px;
     background-color: transparent;
 }
-.login-form #login_form_submit:hover
+.login-signup-form #login_signup_form_submit:hover
 {
     text-decoration: underline;
 }
-.form-body #login_heading{
+.form-body #login_signup_heading{
     font-size: 40px;
     color: white;
     text-decoration: underline;
@@ -214,6 +214,12 @@ cursor: pointer;
     color: white;
     text-decoration: underline;
     cursor: pointer;
+    
+
+
+
+
+
 }
 .bottom-bar
 {
