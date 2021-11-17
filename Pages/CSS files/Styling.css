@@ -360,20 +360,22 @@ cursor: pointer;
   color: white;
 
 }
+.main-page-top-section
+{
+    height: auto;
+    width: 100%;
+    padding: auto;
+    display: flex;
+
+}
+
 
 .main-page-div-for-slider
 {
-    height: auto;
+    height: 350px;
     width: auto;
-    border: 20px dashed black;
-
-}
-.main-page-section
-{
-    height: 1000px;
-    width: 100%;
-    margin: auto;
-    padding: auto;
+    border: 20px solid black;
+    display: flex;
 
 }
 
@@ -381,7 +383,7 @@ cursor: pointer;
 {
 
     width: 100%;
-    height: 400px;
+    height: auto;
     overflow: hidden; 
   
 }
@@ -438,8 +440,101 @@ cursor: pointer;
 
 .main-page-div-for-slider #main_page_slider_image
 {
-    object-fit: contain;
+    height: fit-content;
+    border: 2px solid orange;
 }
+.main-page-list-beside-slider #main_page_list_beside_slider
+{
+    display: grid;
+    padding: 2px;
+}
+.main-page-list-beside-slider #main_page_list_beside_slider_buttons
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(17, 17, 17, 0.479);
+    border: 1px rgba(228, 110, 14, 0.397) solid;
+
+}
+
+.main-page-list-beside-slider #main_page_list_beside_slider_buttons:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+
+.main-page-item-div-section-1 
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+
+
+}
+.main-page-item-display-div-1 
+{
+    width: 50%;
+    height: 400px;
+    margin :20px;
+    border: orange 2px solid;
+}
+.main-page-item-display-div-1 h1
+{
+    text-align: center;
+    color: White ;
+ 
+}
+.main-page-divs-inside-table-1
+{
+    display: flex;
+}
+.main-page-divs-inside-inside-table-1
+{
+    width: 33%;
+    border: 2px solid black;
+    height: auto;
+    margin: 10px;
+}
+
+.main-page-item-display-div-2 h1
+{
+    text-align: center;
+    color: White ;
+}
+.main-page-divs-inside-table-2
+{
+    display: flex;
+}
+.main-page-divs-inside-inside-table-2
+{
+    width: 33%;
+    border: 2px solid black;
+    height: auto;
+    margin: 10px;
+}
+.main-page-item-display-div-2
+{
+    width: 50%;
+    height: 400px;
+    margin :20px;
+    border: orange 2px solid;
+}
+
+.main-page-item-div-section-2
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+
+
+}
+
+
+
+
 
 
   

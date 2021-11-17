@@ -36,6 +36,18 @@ Added dropdown menu for user-image when not logged in display login/signup optio
 
 Working on Mainpage added slider using keyframes , that will hold images . moving left to right automatically .  current images are just placeholders 
 
+Added a list on side of slide images bar cuz only the bar looked garbo . 
+
+Created 4 div sections on the main page that will show products from database of that specific category , on clicking heading it will redirect to more products page of that specific category (need to make heading of categories a link rather than simple h1 like right now ). 
+
+Main page UI somewhat completed . 
+
+Adding SS of MainPage UI as well in **Current_Design_Images** section . 
+
+
+
+
+
 
 
 
