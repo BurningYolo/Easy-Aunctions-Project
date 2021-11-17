@@ -360,6 +360,14 @@ cursor: pointer;
   color: white;
 
 }
+
+.main-page-div-for-slider
+{
+    height: auto;
+    width: auto;
+    border: 20px dashed black;
+
+}
 .main-page-section
 {
     height: 1000px;
@@ -367,6 +375,70 @@ cursor: pointer;
     margin: auto;
     padding: auto;
 
+}
+
+.main-page-slider-section
+{
+
+    width: 100%;
+    height: 400px;
+    overflow: hidden; 
+  
+}
+
+#main_page_slider 
+	{
+		overflow: hidden;
+	}
+	#main_page_slider figure 
+	{
+		width: 500%;
+		position: relative;
+		margin: 0;
+		left: 0;
+
+		animation: 30s slider infinite ; 
+	}
+
+	@keyframes slider 
+	{
+		0%
+		{
+			left: 0%;
+		}
+		20%
+		{
+			left: 0%;
+		}
+		25%
+		{
+			left: -50%; 
+		}
+		45%
+		{
+			left: -100%;
+		}
+		50%
+		{
+			left: -150%;
+		}
+		70%
+		{
+			left: -200%; 
+		}
+		75%
+		{
+			left: -250%;
+		}
+		100%
+		{
+			left: -300%;
+		}
+	}
+
+.main-page-div-for-slider #main_page_slider_image
+{
+    object-fit: contain;
 }
 
 
