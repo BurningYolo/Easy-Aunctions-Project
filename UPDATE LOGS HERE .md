@@ -34,6 +34,11 @@ Added a dropdown menu on topbar as hover affect on **Product**  ; is working but
 
 Added dropdown menu for user-image when not logged in display login/signup options on hover . 
 
+Working on Mainpage added slider using keyframes , that will hold images . moving left to right automatically .  current images are just placeholders 
+
+
+
+
 
 
 
