@@ -42,7 +42,7 @@ Created 4 div sections on the main page that will show products from database of
 
 Main page UI somewhat completed . 
 
-Adding SS of MainPage UI as well in **Current_Design_Images** section . .s
+Adding SS of MainPage UI as well in **Current_Design_Images** section .
 
 
 
